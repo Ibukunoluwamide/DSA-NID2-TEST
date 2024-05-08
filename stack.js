@@ -14,7 +14,6 @@ class Stack {
     pop() {
       if (this.isEmpty()) {
         console.log("all is empty, nothing to pop");
-        return;
       }
       return this.all.pop();
     }
@@ -22,7 +21,6 @@ class Stack {
     peekLast() {
       if (this.isEmpty()) {
         console.log("all is empty");
-        return;
       }
       return this.all[this.length() - 1];
     }
@@ -30,7 +28,6 @@ class Stack {
     peekFirst() {
       if (this.isEmpty()) {
         console.log("all is empty");
-        return;
       }
       return this.all[0];
     }
@@ -47,13 +44,13 @@ class Stack {
     }
   }
   
-  const all = new Stack();
-  all.push(10);
-  all.push(20);
-  all.push(30);
-  all.print(); 
-  console.log("Peek Last:", all.peekLast()); 
-  console.log("Peek First:", all.peekFirst()); 
-  console.log("Popped item:", all.pop()); 
-  all.print();
+  const q1 = new Stack();
+  q1.push(10);
+  q1.push(20);
+  q1.push(30);
+  q1.print(); 
+  console.log("Peek Last:", q1.peekLast()); 
+  console.log("Peek First:", q1.peekFirst()); 
+  console.log("Popped item:", q1.pop()); 
+  q1.print();
   

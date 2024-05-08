@@ -18,7 +18,6 @@ class Queue {
     enqueue(item) {
       if (this.isFull()) {
         console.log("Queue is full!");
-        return;
       }
   
       this.last++;
@@ -29,7 +28,6 @@ class Queue {
     dequeue() {
       if (this.isEmpty()) {
         console.log("Queue is empty!");
-        return;
       }
   
       const dequeuedItem = this.queue[this.first];
