@@ -1,0 +1,20 @@
+-- List 10 hosting platforms that you know
+1. Vercel
+2. Netlify
+3. Render
+4. railway
+5. infinityfree
+6. 000webhosting
+7. awardspace
+8. namecheap
+9. qserver
+10. hostinger
+
+-- List steps to be taken to deploy a vite+react application on cpanel
+Step 1: Build your Vite+React project using NPM RUN BUILD, after building, Locate a folder named DIST or BUILD in your project. Then zip the folder
+Step 2: Login into your cpanel
+Step 3: In your cpanel, locate File Manager. Then click on the file manager.
+Step 4: In the File Manager, locate PUBLIC_HTML. click on it
+Step 5: In the PUBLIC_HTML, look for an option called UPLOAD, click on it. then upload the vite+react zip folder.
+Step 6: Click on Uploaded File and extract it into PUBLIC_HTML. Now, your project is live.
+Step 7: Now check your domain address. You have successfully deploy you VITE+REACT APPLICATION.
